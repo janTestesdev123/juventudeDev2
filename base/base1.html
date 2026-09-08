@@ -1,26 +1,19 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Atividade — Escondendo Dados no HTML</title>
-</head>
-<body>
-
-  <h1>Filmes que quero assistir</h1>
-
-  <ul>
-    <li data-genero="ficcao-cientifica" data-ano="2010">A Origem</li>
-    <li data-genero="animacao" data-ano="2015">Divertida Mente</li>
-    <li data-genero="aventura" data-ano="2001">O Senhor dos Anéis</li>
+<link rel="stylesheet" href="style.css">
+<main class="cartao">
+  <h1 id="titulo">Seu nome</h1>
+  <p class="bio">Estou aprendendo web.</p>
+  <h2>Meus interesses</h2>
+  <ul class="interesses">
+    <li>Música</li>
+    <li>Jogos</li>
   </ul>
+  <a href="#">Meu projeto</a>
+</main>
 
-  <script>
-    // Missão: use querySelector para encontrar um item da lista,
-    // depois use dataset para ler o valor de um atributo data-*
-    // e imprima no console com console.log.
-    // Exemplo de atributos disponíveis: data-genero e data-ano
-  </script>
-
-</body>
-</html>
+/* style.css */
+body {
+  background: #f4f7fb;
+  font-family: Arial;
+}
+.cartao { background: white; }
+#titulo { color: #2563eb; }
