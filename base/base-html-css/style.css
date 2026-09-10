@@ -1,0 +1,51 @@
+/* --- ESTILOS GERAIS DA PÁGINA --- */
+body {
+    background: #f4f7fb;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* --- SEU DESAFIO COMEÇA AQUI --- */
+/* Preencha os valores de acordo com o briefing de cada cartão */
+
+.cartao1 { 
+    /* BRIEFING MÚSICA: #ffffff sobre #7c3aed, Georgia, 22px, centralizado */
+    background: ; 
+    color: ;
+    font-family: ;
+    font-size: ; 
+    text-align: ;
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.cartao2 { 
+    /* BRIEFING GAMES: #22d3ee sobre #0f172a, Courier New, 20px, centralizado */
+    background: ; 
+    color: ;
+    font-family: ;
+    font-size: ;
+    text-align: ;
+
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.cartao3 { 
+    /* BRIEFING NATUREZA: #166534 sobre #dcfce7, Arial, 18px, alinhado à esquerda */
+    background: ;
+    color: ;
+    font-family: ;
+    font-size: ;
+    text-align: ;
+
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Garante que os links fiquem com a mesma cor do texto do cartão */
+a { color: inherit; }
