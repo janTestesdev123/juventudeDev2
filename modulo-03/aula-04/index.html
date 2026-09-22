@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="styles.css">
 
@@ -7,8 +8,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <main class="todo">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+        <label for="menu-toggle" class="menu-botao" aria-label="Abrir menu de navegação">☰</label>
+        <nav class="menu" aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html" aria-current="page">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
         <div class="topo">
 
         </div>
@@ -25,20 +38,21 @@
             <div class="card-habilidades">
 
             </div>
-            
+
         </div>
         <div class="conteudo-inferior">
             <div class="card-esquerdo-inferior"></div>
-            <div class="card-grande-direito-inferior">
-                <div class="card-grande-direito-inferior"></div>
-                <div class="card-grande-direito-inferior"></div>
-                <div class="card-grande-direito-inferior"></div>
-                <div class="card-grande-direito-inferior"></div>
-                <div class="card-grande-direito-inferior"></div>
+            <div class="card-esquerdo-inferior">
+                <div class="card-direito"></div>
+                <div class="card-direito"></div>
+                <div class="card-direito"></div>
+                <div class="card-direito"></div>
+                <div class="card-direito"></div>
             </div>
 
         </div>
 
     </main>
 </body>
+
 </html>
