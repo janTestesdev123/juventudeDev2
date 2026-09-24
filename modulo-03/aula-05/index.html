@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário básico</title>
+</head>
+
+<body>
+    <form>
+        <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nome">
+        </div>
+        <div class="mb-3">
+            
+            <input type="email" class="form-control is-invalid" aria-describedby="email-erro">
+            <div id="email-erro" class="invalid-feedback">
+                Por favor, insira um e-mail válido.
+            </div>
+        </div>
+        <select class="form-select" id="motivo">
+            <option>Escolha uma opção</option>
+        </select>
+
+        <select name="frutas" class="form-select" id="frutas">
+                  <option value="maca">Maçã</option>
+                <option value="banana">Banana</option>
+              <option value="laranja">Laranja</option>
+        </select>
+
+        <div>
+            <input class="form-check-input" type="checkbox" id="aceite">
+            <label class="form-check-label" for="aceite">Aceito os termos</label>
+        </div>
+        <button type="submit" class="btn btn-info">Enviar</button>
+    </form>
+</body>
+
+</html>
