@@ -7,38 +7,23 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário básico</title>
+    <title>Bootstrap 5 - Tamanhos</title>
 </head>
 
 <body>
-    <form>
-        <div class="mb-3">
-            <label for="nome" class="form-label">Nome</label>
-            <input type="text" class="form-control" id="nome">
+    <main class="container py-4">
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col"><div class="p-3 bg-primary text-white">Coluna 1</div></div>
+            <div class="col"><div class="p-3 bg-success text-white">Coluna 2</div></div>
+            <div class="col"><div class="p-3 bg-danger text-white">Coluna 3</div></div>
         </div>
-        <div class="mb-3">
-            
-            <input type="email" class="form-control is-invalid" aria-describedby="email-erro">
-            <div id="email-erro" class="invalid-feedback">
-                Por favor, insira um e-mail válido.
+
+        <div class="row justify-content-center mt-3">
+            <div class="col-8 col-md-4">
+                <div class="p-3 bg-warning text-center">Coluna centralizada</div>
             </div>
         </div>
-        <select class="form-select" id="motivo">
-            <option>Escolha uma opção</option>
-        </select>
-
-        <select name="frutas" class="form-select" id="frutas">
-                  <option value="maca">Maçã</option>
-                <option value="banana">Banana</option>
-              <option value="laranja">Laranja</option>
-        </select>
-
-        <div>
-            <input class="form-check-input" type="checkbox" id="aceite">
-            <label class="form-check-label" for="aceite">Aceito os termos</label>
-        </div>
-        <button type="submit" class="btn btn-info">Enviar</button>
-    </form>
+    </main>
 </body>
 
 </html>
