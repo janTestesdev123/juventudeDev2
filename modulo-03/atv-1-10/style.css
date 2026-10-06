@@ -1,0 +1,51 @@
+.background{
+    background-color: #313E51;
+}
+
+.background-circle {
+    position: fixed;
+    z-index: 0;
+    width: 360px;
+    aspect-ratio: 1;
+    border: 32px solid #6C757D;
+    border-radius: 50%;
+    background-color: #313E51;
+    pointer-events: none;
+}
+
+.background-circle-top-left {
+    top: -180px;
+    left: -180px;
+}
+
+.background-circle-bottom-right {
+    right: -180px;
+    bottom: -180px;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+}
+
+.card{
+    background-color: #3C4D67;
+    border: 1px solid #6C757D;
+    border-radius: 0.375rem;
+}
+
+.icon-html {
+    color: #ff7043;
+}
+
+.icon-css {
+    color: #4fc3f7;
+}
+
+.icon-js {
+    color: #f7df1e;
+}
+
+.icon-accessibility {
+    color: #66d9a8;
+}
